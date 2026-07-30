@@ -1,37 +1,113 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>A7X Tour Tracker 2026</title>
-<style>
-:root{--bg:#09090c;--panel:#15151b;--panel2:#1c1c24;--text:#f5f5f7;--muted:#a6a6b2;--red:#d71920;--border:#2b2b35;--green:#63d596}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:radial-gradient(circle at top right,rgba(215,25,32,.14),transparent 28%),linear-gradient(180deg,#08080b,#101016);color:var(--text);min-height:100vh}.wrap{max-width:1160px;margin:auto;padding:0 22px}header{position:sticky;top:0;z-index:10;background:rgba(9,9,12,.86);backdrop-filter:blur(14px);border-bottom:1px solid var(--border)}nav{height:70px;display:flex;align-items:center;justify-content:space-between}.brand{font-weight:900;letter-spacing:.05em}.brand b{color:var(--red)}.links{display:flex;gap:18px}.links a{color:var(--muted);text-decoration:none;font-size:14px}.links a:hover{color:#fff}.hero{padding:66px 0 28px}.eyebrow{font-size:12px;color:#ff5a61;font-weight:800;letter-spacing:.18em;text-transform:uppercase}h1{font-size:clamp(40px,7vw,76px);line-height:.98;letter-spacing:-.045em;margin:12px 0}.tag{font-size:clamp(17px,2vw,22px);color:var(--muted)}.grid{display:grid;grid-template-columns:1.5fr 1fr;gap:18px;margin-top:34px}.card{background:linear-gradient(180deg,rgba(28,28,36,.96),rgba(21,21,27,.96));border:1px solid var(--border);border-radius:18px;padding:22px;box-shadow:0 18px 42px rgba(0,0,0,.25)}.latest{min-height:285px;position:relative;overflow:hidden}.latest:after{content:"";position:absolute;width:240px;height:240px;border:42px solid rgba(215,25,32,.1);right:-70px;bottom:-105px;transform:rotate(18deg)}.kicker{color:var(--muted);font-size:12px;letter-spacing:.13em;text-transform:uppercase}.latest h2{font-size:31px;margin:12px 0 6px}.muted{color:var(--muted)}.callout{margin-top:28px;border-left:3px solid var(--red);background:rgba(215,25,32,.08);padding:15px;border-radius:10px}.stats{display:grid;grid-template-columns:1fr 1fr;gap:13px}.stat{background:var(--panel2);border:1px solid var(--border);border-radius:16px;padding:18px}.stat .n{font-size:34px;font-weight:900;line-height:1}.stat .l{color:var(--muted);font-size:13px;margin-top:8px}section{padding:34px 0}.section-head{display:flex;justify-content:space-between;align-items:end;gap:16px;margin-bottom:16px}h3{font-size:27px;margin:0}.search{width:100%;max-width:280px;background:#101015;color:#fff;border:1px solid var(--border);border-radius:12px;padding:11px 13px;outline:none}.search:focus{border-color:var(--red)}.setlist{display:grid;grid-template-columns:1fr 1fr;gap:12px}.song{display:flex;gap:14px;align-items:flex-start;background:var(--panel);border:1px solid var(--border);border-radius:14px;padding:15px 16px}.num{min-width:29px;height:29px;border-radius:50%;display:grid;place-items:center;background:rgba(215,25,32,.15);color:#ff777c;font-size:13px;font-weight:900}.song-title{font-weight:800}.note{color:var(--muted);font-size:12px;margin-top:4px}.pill{display:inline-block;color:var(--green);border:1px solid rgba(99,213,150,.3);background:rgba(99,213,150,.09);padding:5px 9px;border-radius:999px;font-weight:800}.event{display:grid;grid-template-columns:92px 1fr;gap:16px}.date{color:#ff5a61;font-weight:900}.eventbox{border-left:2px solid var(--border);padding:0 0 8px 18px}.hidden{display:none!important}footer{border-top:1px solid var(--border);padding:28px 0 42px;color:var(--muted);font-size:13px}@media(max-width:760px){.links{display:none}.grid,.setlist{grid-template-columns:1fr}.event{grid-template-columns:1fr;gap:6px}.eventbox{border-left:none;border-top:1px solid var(--border);padding:12px 0}}
-</style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Fan-made Avenged Sevenfold 2026 North American tour setlist tracker." />
+  <title>A7X Tour Tracker 2026</title>
+  <style>
+    :root{
+      --bg:#08090c;--panel:#12141a;--panel2:#191c24;--text:#f6f7fb;--muted:#a4a8b3;
+      --red:#d71920;--red2:#ff3e46;--line:#2a2e39;--green:#63d69b
+    }
+    *{box-sizing:border-box} html{scroll-behavior:smooth}
+    body{margin:0;color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+      background:radial-gradient(circle at 85% 5%,rgba(215,25,32,.16),transparent 30%),linear-gradient(180deg,#08090c,#0d0f14);min-height:100vh}
+    a{color:inherit;text-decoration:none}.wrap{max-width:1180px;margin:auto;padding:0 22px}
+    header{position:sticky;top:0;z-index:20;background:rgba(8,9,12,.82);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+    nav{height:70px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+    .brand{display:flex;align-items:center;gap:12px;font-weight:900;letter-spacing:.04em}
+    .mark{width:38px;height:38px;border:2px solid var(--red);display:grid;place-items:center;transform:rotate(45deg);box-shadow:0 0 22px rgba(215,25,32,.28)}
+    .mark span{transform:rotate(-45deg);font-size:11px}.navlinks{display:flex;gap:18px;color:var(--muted);font-size:14px}
+    .hero{padding:72px 0 34px}.eyebrow{font-size:12px;font-weight:900;text-transform:uppercase;letter-spacing:.2em;color:var(--red2)}
+    h1{font-size:clamp(42px,7vw,78px);line-height:.97;letter-spacing:-.045em;margin:14px 0 10px}.sub{font-size:clamp(17px,2vw,22px);color:var(--muted)}
+    .grid{display:grid;gap:16px}.topgrid{grid-template-columns:1.4fr 1fr;margin-top:34px}
+    .card{background:linear-gradient(180deg,rgba(25,28,36,.96),rgba(18,20,26,.96));border:1px solid var(--line);border-radius:18px;padding:22px;box-shadow:0 18px 44px rgba(0,0,0,.22)}
+    .latest{min-height:300px;position:relative;overflow:hidden}.latest:after{content:"";position:absolute;width:250px;height:250px;border:42px solid rgba(215,25,32,.1);right:-70px;bottom:-110px;transform:rotate(20deg)}
+    .kicker{color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.14em}h2{font-size:32px;margin:10px 0 5px}.location{color:var(--muted)}
+    .highlight{margin-top:28px;padding:16px;border-left:3px solid var(--red);background:rgba(215,25,32,.08);border-radius:10px}
+    .stats{grid-template-columns:repeat(2,1fr)}.stat{background:var(--panel2);border:1px solid var(--line);border-radius:16px;padding:18px}
+    .stat .num{font-size:36px;line-height:1;font-weight:900}.stat .label{margin-top:8px;color:var(--muted);font-size:13px}
+    section{padding:34px 0}.head{display:flex;align-items:end;justify-content:space-between;gap:18px;margin-bottom:16px}
+    h3{font-size:27px;margin:0}.small{color:var(--muted);font-size:14px}.showcards{grid-template-columns:repeat(2,minmax(0,1fr))}
+    .showcard h4{margin:6px 0;font-size:21px}.meta{color:var(--muted);font-size:14px}
+    .badge{display:inline-flex;padding:6px 10px;border-radius:999px;font-size:12px;font-weight:800;border:1px solid rgba(99,214,155,.3);background:rgba(99,214,155,.08);color:var(--green)}
+    .setlist{grid-template-columns:repeat(2,minmax(0,1fr))}.song{display:flex;gap:13px;align-items:flex-start;padding:14px 15px;background:var(--panel);border:1px solid var(--line);border-radius:14px}
+    .songnum{width:28px;height:28px;display:grid;place-items:center;border-radius:50%;background:rgba(215,25,32,.14);color:#ff8186;font-size:12px;font-weight:900;flex:none}
+    .songtitle{font-weight:800}.note{font-size:12px;color:var(--muted);margin-top:4px}.compare{grid-template-columns:repeat(3,1fr)}.compare .card{text-align:center}.compare strong{display:block;font-size:28px;margin-top:6px}
+    footer{margin-top:20px;border-top:1px solid var(--line);padding:28px 0 42px;color:var(--muted);font-size:13px}
+    @media(max-width:780px){.navlinks{display:none}.topgrid,.showcards,.setlist,.compare{grid-template-columns:1fr}}
+  </style>
 </head>
 <body>
-<header><div class="wrap"><nav><div class="brand"><b>A7X</b> TOUR TRACKER 2026</div><div class="links"><a href="#dashboard">Dashboard</a><a href="#setlist">Setlist</a><a href="#history">History</a></div></nav></div></header>
-<main><div class="wrap">
-<section class="hero" id="dashboard"><div class="eyebrow">North American Tour 2026</div><h1>Every show.<br>Every song.<br>Every change.</h1><div class="tag">A living Avenged Sevenfold setlist tracker.</div>
-<div class="grid"><div class="card latest"><div class="kicker">Latest completed show</div><h2>Thunder Ridge Nature Arena</h2><div class="muted">Ridgedale, Missouri · July 25, 2026</div><div class="callout"><strong>Show #1:</strong> “Nightmare” opened, “Magic” made its live debut, and “Cosmic” closed.</div></div>
-<div class="stats"><div class="stat"><div class="n">1</div><div class="l">Shows completed</div></div><div class="stat"><div class="n">12</div><div class="l">Unique songs</div></div><div class="stat"><div class="n">1</div><div class="l">Live debut</div></div><div class="stat"><div class="n">12</div><div class="l">Set length</div></div></div></div></section>
-<section id="setlist"><div class="section-head"><div><h3>Show #1 Setlist</h3><div class="muted">Tape intro: “Nightcall” by Kavinsky</div></div><input id="search" class="search" placeholder="Search songs..."></div>
-<div class="setlist" id="songGrid">
-<div class="song" data-song="nightmare"><div class="num">1</div><div><div class="song-title">Nightmare</div><div class="note">First time opening since 2016</div></div></div>
-<div class="song" data-song="magic"><div class="num">2</div><div><div class="song-title">Magic</div><div class="note"><span class="pill">★ Live debut</span></div></div></div>
-<div class="song" data-song="afterlife"><div class="num">3</div><div class="song-title">Afterlife</div></div>
-<div class="song" data-song="shepherd of fire"><div class="num">4</div><div class="song-title">Shepherd of Fire</div></div>
-<div class="song" data-song="buried alive"><div class="num">5</div><div class="song-title">Buried Alive</div></div>
-<div class="song" data-song="seize the day"><div class="num">6</div><div class="song-title">Seize the Day</div></div>
-<div class="song" data-song="hail to the king"><div class="num">7</div><div class="song-title">Hail to the King</div></div>
-<div class="song" data-song="nobody"><div class="num">8</div><div class="song-title">Nobody</div></div>
-<div class="song" data-song="the stage"><div class="num">9</div><div class="song-title">The Stage</div></div>
-<div class="song" data-song="bat country"><div class="num">10</div><div class="song-title">Bat Country</div></div>
-<div class="song" data-song="unholy confessions"><div class="num">11</div><div><div class="song-title">Unholy Confessions</div><div class="note">Drum-solo outro</div></div></div>
-<div class="song" data-song="cosmic"><div class="num">12</div><div><div class="song-title">Cosmic</div><div class="note">Show closer</div></div></div>
-</div></section>
-<section id="history"><div class="section-head"><div><h3>Tour History</h3><div class="muted">The story of the tour as it unfolds.</div></div></div><div class="card"><div class="event"><div class="date">JUL 25</div><div class="eventbox"><strong>The North American run begins in Ridgedale.</strong><div class="note">“Magic” receives its live debut. “Nightmare” returns as an opener. “Cosmic” closes the first tracked show.</div></div></div></div></section>
+<header><div class="wrap"><nav>
+  <a class="brand" href="#top"><div class="mark"><span>A7X</span></div><span>TOUR TRACKER 2026</span></a>
+  <div class="navlinks"><a href="#dashboard">Dashboard</a><a href="#shows">Shows</a><a href="#setlist">Setlist</a></div>
+</nav></div></header>
+
+<main id="top"><div class="wrap">
+<section class="hero" id="dashboard">
+  <div class="eyebrow">North American Tour 2026</div>
+  <h1>Every show.<br>Every song.<br>Every change.</h1>
+  <div class="sub">A fan-made living setlist and statistics archive.</div>
+  <div class="grid topgrid">
+    <div class="card latest">
+      <div class="kicker">Latest tracked show</div>
+      <h2>Mystic Lake Amphitheater</h2>
+      <div class="location">Shakopee, Minnesota · July 27, 2026</div>
+      <div class="highlight"><strong>Show #2:</strong> The opening-night set was repeated exactly, producing a 100% similarity score.</div>
+    </div>
+    <div class="grid stats">
+      <div class="stat"><div class="num">2</div><div class="label">Shows completed</div></div>
+      <div class="stat"><div class="num">12</div><div class="label">Unique songs</div></div>
+      <div class="stat"><div class="num">1</div><div class="label">Live debuts</div></div>
+      <div class="stat"><div class="num">100%</div><div class="label">Latest similarity</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="shows">
+  <div class="head"><div><h3>Tracked Shows</h3><div class="small">North American dates beginning July 25, 2026.</div></div></div>
+  <div class="grid showcards">
+    <article class="card showcard">
+      <div class="kicker">Show #1 · July 25</div><h4>Thunder Ridge Nature Arena</h4>
+      <div class="meta">Ridgedale, Missouri</div><p>“Magic” made its live debut. “Nightmare” opened and “Cosmic” closed.</p><span class="badge">12-song set</span>
+    </article>
+    <article class="card showcard">
+      <div class="kicker">Show #2 · July 27</div><h4>Mystic Lake Amphitheater</h4>
+      <div class="meta">Shakopee, Minnesota</div><p>No additions, drops, returns, or order changes compared with Show #1.</p><span class="badge">100% similarity</span>
+    </article>
+  </div>
+</section>
+
+<section>
+  <div class="head"><div><h3>Show-to-Show Comparison</h3><div class="small">Show #2 versus Show #1.</div></div></div>
+  <div class="grid compare">
+    <div class="card"><div class="small">Songs added</div><strong>0</strong></div>
+    <div class="card"><div class="small">Songs dropped</div><strong>0</strong></div>
+    <div class="card"><div class="small">Similarity</div><strong>100%</strong></div>
+  </div>
+</section>
+
+<section id="setlist">
+  <div class="head"><div><h3>Current Setlist</h3><div class="small">Used at both tracked shows. Tape intro: “Nightcall” by Kavinsky.</div></div></div>
+  <div class="grid setlist">
+    <div class="song"><div class="songnum">1</div><div><div class="songtitle">Nightmare</div><div class="note">Opener · 2-show streak</div></div></div>
+    <div class="song"><div class="songnum">2</div><div><div class="songtitle">Magic</div><div class="note">Live debut on July 25 · 2-show streak</div></div></div>
+    <div class="song"><div class="songnum">3</div><div><div class="songtitle">Afterlife</div><div class="note">2 appearances</div></div></div>
+    <div class="song"><div class="songnum">4</div><div><div class="songtitle">Shepherd of Fire</div><div class="note">2 appearances</div></div></div>
+    <div class="song"><div class="songnum">5</div><div><div class="songtitle">Buried Alive</div><div class="note">2 appearances</div></div></div>
+    <div class="song"><div class="songnum">6</div><div><div class="songtitle">Seize the Day</div><div class="note">2 appearances</div></div></div>
+    <div class="song"><div class="songnum">7</div><div><div class="songtitle">Hail to the King</div><div class="note">2 appearances</div></div></div>
+    <div class="song"><div class="songnum">8</div><div><div class="songtitle">Nobody</div><div class="note">2 appearances</div></div></div>
+    <div class="song"><div class="songnum">9</div><div><div class="songtitle">The Stage</div><div class="note">2 appearances</div></div></div>
+    <div class="song"><div class="songnum">10</div><div><div class="songtitle">Bat Country</div><div class="note">2 appearances</div></div></div>
+    <div class="song"><div class="songnum">11</div><div><div class="songtitle">Unholy Confessions</div><div class="note">Drum-solo outro · 2 appearances</div></div></div>
+    <div class="song"><div class="songnum">12</div><div><div class="songtitle">Cosmic</div><div class="note">Closer · 2-show streak</div></div></div>
+  </div>
+</section>
 </div></main>
-<footer><div class="wrap">Fan-made tracker. Setlist data should be verified against confirmed concert listings before each update.</div></footer>
-<script>const q=document.getElementById('search');const songs=[...document.querySelectorAll('.song')];q.addEventListener('input',()=>{const v=q.value.trim().toLowerCase();songs.forEach(s=>s.classList.toggle('hidden',!s.dataset.song.includes(v)))})</script>
-</body></html>
+
+<footer><div class="wrap">Unofficial fan project. Avenged Sevenfold is not affiliated with this site.</div></footer>
+</body>
+</html>
