@@ -1,0 +1,1 @@
+export default function Footer(){return <footer><div className="shell">Unofficial fan project tracking the 2026 North American tour. Not affiliated with Avenged Sevenfold.</div></footer>}
