@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Unofficial Avenged Sevenfold 2026 North American Tour tracker">
+  <title>A7X Tour Tracker 2026</title>
+  <style>
+    :root{--bg:#07080b;--panel:#12141a;--panel2:#191c24;--line:#2b2f39;--text:#f6f7fb;--muted:#9ca3af;--red:#df252d;--red2:#ff5b63;--green:#59d395;--gold:#f6c453}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}
+    body{margin:0;background:radial-gradient(circle at 85% 0,rgba(223,37,45,.18),transparent 30%),var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    a{color:inherit;text-decoration:none}.shell{width:min(1180px,calc(100% - 34px));margin:auto}
+    header{position:sticky;top:0;z-index:20;background:rgba(7,8,11,.86);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}
+    .nav{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+    .brand{display:flex;align-items:center;gap:12px;font-weight:900}.brandMark{width:42px;height:42px;display:grid;place-items:center;border:1px solid var(--red);border-radius:11px;color:var(--red2);font-size:12px;box-shadow:0 0 26px rgba(223,37,45,.25)}
+    nav{display:flex;gap:20px;color:var(--muted);font-size:14px}nav a:hover{color:white}
+    .hero{padding:88px 0 48px}.eyebrow{text-transform:uppercase;letter-spacing:.18em;font-size:12px;font-weight:900;color:var(--red2)}
+    h1{font-size:clamp(48px,8vw,88px);line-height:.94;letter-spacing:-.055em;margin:16px 0 22px}h1 em{font-style:normal;color:var(--red2)}
+    .lede{max-width:760px;color:var(--muted);font-size:20px;line-height:1.65}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+    .btn{display:inline-flex;padding:12px 17px;border-radius:10px;border:1px solid var(--line);font-weight:800;font-size:14px}.btn.primary{background:var(--red);border-color:var(--red)}
+    .section{padding:34px 0 52px}.sectionHead{display:flex;align-items:end;justify-content:space-between;gap:18px;margin-bottom:18px}.sectionHead h2{margin:4px 0 0;font-size:34px}.muted{color:var(--muted)}
+    .grid{display:grid;gap:16px}.statsGrid{grid-template-columns:repeat(4,1fr)}.featureGrid{grid-template-columns:1.35fr 1fr;margin-top:18px}.showGrid{grid-template-columns:repeat(2,1fr)}.compareGrid{grid-template-columns:repeat(4,1fr)}
+    .panel,.statCard,.showCard{background:linear-gradient(180deg,rgba(24,27,36,.97),rgba(16,18,24,.97));border:1px solid var(--line);border-radius:18px;padding:22px}
+    .statCard span,.statCard small{display:block;color:var(--muted)}.statCard strong{display:block;font-size:42px;margin:10px 0 4px}
+    .feature h2{font-size:34px;margin:8px 0}.highlight{margin-top:22px;padding:15px 16px;border-left:3px solid var(--red);border-radius:10px;background:rgba(223,37,45,.08)}
+    .progress{height:12px;border-radius:999px;background:#262a34;overflow:hidden;margin:22px 0}.progress span{display:block;height:100%;width:12.5%;background:linear-gradient(90deg,var(--red),var(--red2))}
+    .showCard h3{font-size:24px;margin:10px 0 6px}.showCard p{margin:0;color:var(--muted)}
+    .badge{display:inline-flex;margin-top:14px;padding:6px 10px;border-radius:999px;font-size:12px;font-weight:800;border:1px solid var(--line)}.green{color:var(--green)}.gold{color:var(--gold)}
+    .miniCard{padding:18px;text-align:center;border:1px solid var(--line);border-radius:16px;background:var(--panel2)}.miniCard strong{display:block;font-size:34px;margin-top:6px}
+    .search{width:100%;max-width:280px;padding:11px 13px;border-radius:12px;border:1px solid var(--line);background:#0d0f14;color:#fff}
+    .setlist{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.song{display:flex;gap:13px;padding:14px 15px;background:var(--panel);border:1px solid var(--line);border-radius:14px}
+    .songNum{width:28px;height:28px;display:grid;place-items:center;border-radius:50%;background:rgba(223,37,45,.14);color:#ff8b90;font-size:12px;font-weight:900;flex:none}.songTitle{font-weight:800}.note{font-size:12px;color:var(--muted);margin-top:4px}
+    .songTable{border:1px solid var(--line);border-radius:18px;overflow:hidden}.songTableHead,.songRow{display:grid;grid-template-columns:2fr repeat(4,1fr);gap:12px;padding:16px 20px}.songTableHead{background:#20232c;color:var(--muted);font-size:12px;text-transform:uppercase}.songRow{background:var(--panel);border-top:1px solid var(--line)}
+    .heatWrap{overflow-x:auto}.heatmap{min-width:760px;display:grid;grid-template-columns:220px repeat(2,80px);gap:8px;align-items:center}.heatHead{font-size:12px;color:var(--muted);text-align:center}.heatRow{display:contents}.heatCell{height:38px;border-radius:8px;background:#222630;display:grid;place-items:center}.heatCell.played{background:var(--red)}
+    .timeline{display:grid;gap:14px}.event{display:grid;grid-template-columns:100px 1fr;gap:18px}.eventDate{font-weight:900;color:var(--red2)}.eventBody{border-left:2px solid var(--line);padding:0 0 20px 18px}
+    footer{border-top:1px solid var(--line);padding:30px 0 42px;color:var(--muted);font-size:13px}.hidden{display:none!important}
+    @media(max-width:850px){nav{display:none}.statsGrid,.compareGrid{grid-template-columns:repeat(2,1fr)}.featureGrid,.showGrid{grid-template-columns:1fr}}
+    @media(max-width:620px){.statsGrid,.compareGrid,.setlist{grid-template-columns:1fr}.songTableHead{display:none}.songRow{grid-template-columns:1fr 60px 60px}.songRow span:nth-child(4),.songRow span:nth-child(5){display:none}.event{grid-template-columns:1fr}.eventBody{border-left:0;border-top:1px solid var(--line);padding:12px 0 18px}}
+  </style>
+</head>
+<body>
+<header><div class="shell nav"><a class="brand" href="#top"><span class="brandMark">A7X</span><span>Tour Tracker <b>2026</b></span></a><nav><a href="#dashboard">Dashboard</a><a href="#shows">Shows</a><a href="#songs">Songs</a><a href="#heatmap">Heat Map</a><a href="#history">History</a></nav></div></header>
+
+<main id="top">
+<section class="hero"><div class="shell"><p class="eyebrow">North American Tour 2026</p><h1>Every show.<br>Every song.<br><em>Every change.</em></h1><p class="lede">A living fan archive tracking setlists, debuts, streaks, similarities, and the evolution of the 2026 North American tour.</p><div class="actions"><a class="btn primary" href="#shows">Explore shows</a><a class="btn" href="#songs">View song stats</a></div></div></section>
+
+<section class="shell section" id="dashboard">
+<div class="statsGrid grid">
+<article class="statCard"><span>Shows completed</span><strong>2 / 16</strong><small>12.5% of the tour</small></article>
+<article class="statCard"><span>Unique songs</span><strong>12</strong><small>All currently active</small></article>
+<article class="statCard"><span>Live debuts</span><strong>1</strong><small>Magic</small></article>
+<article class="statCard"><span>Latest similarity</span><strong>100%</strong><small>Show #2 vs. Show #1</small></article>
+</div>
+<div class="featureGrid grid">
+<article class="panel feature"><p class="eyebrow">Latest show · #2</p><h2>Mystic Lake Amphitheater</h2><p class="muted">Shakopee, Minnesota · July 27, 2026</p><div class="highlight"><strong>Big story:</strong> The second show repeated the opening-night set exactly. No additions, drops, returns, or order changes.</div></article>
+<article class="panel"><p class="eyebrow">Tour progress</p><div class="progress"><span></span></div><h3>2 of 16 shows complete</h3><p class="muted">Next scheduled stop: Tinley Park, Illinois.</p></article>
+</div>
+</section>
+
+<section class="shell section" id="shows">
+<div class="sectionHead"><div><p class="eyebrow">Tracked shows</p><h2>North American Tour</h2></div></div>
+<div class="showGrid grid">
+<article class="showCard"><span class="muted">Show #1 · July 25, 2026</span><h3>Thunder Ridge Nature Arena</h3><p>Ridgedale, Missouri</p><div class="highlight">“Magic” made its live debut. “Nightmare” opened and “Cosmic” closed.</div><span class="badge gold">12-song set</span></article>
+<article class="showCard"><span class="muted">Show #2 · July 27, 2026</span><h3>Mystic Lake Amphitheater</h3><p>Shakopee, Minnesota</p><div class="highlight">No songs were added, dropped, returned, or moved compared with Show #1.</div><span class="badge green">100% similarity</span></article>
+</div>
+<div class="sectionHead" style="margin-top:36px"><div><p class="eyebrow">Show-to-show comparison</p><h2>Show #2 vs. Show #1</h2></div></div>
+<div class="compareGrid grid"><div class="miniCard"><span class="muted">Songs added</span><strong>0</strong></div><div class="miniCard"><span class="muted">Songs dropped</span><strong>0</strong></div><div class="miniCard"><span class="muted">Order changes</span><strong>0</strong></div><div class="miniCard"><span class="muted">Similarity</span><strong>100%</strong></div></div>
+</section>
+
+<section class="shell section">
+<div class="sectionHead"><div><p class="eyebrow">Latest setlist</p><h2>Current running order</h2></div><input id="songSearch" class="search" placeholder="Search songs..."></div>
+<div class="setlist">
+<div class="song" data-song="nightmare"><div class="songNum">1</div><div><div class="songTitle">Nightmare</div><div class="note">Opener · 2-show streak</div></div></div>
+<div class="song" data-song="magic"><div class="songNum">2</div><div><div class="songTitle">Magic</div><div class="note">Live debut on July 25 · 2-show streak</div></div></div>
+<div class="song" data-song="afterlife"><div class="songNum">3</div><div><div class="songTitle">Afterlife</div><div class="note">2 appearances</div></div></div>
+<div class="song" data-song="shepherd of fire"><div class="songNum">4</div><div><div class="songTitle">Shepherd of Fire</div><div class="note">2 appearances</div></div></div>
+<div class="song" data-song="buried alive"><div class="songNum">5</div><div><div class="songTitle">Buried Alive</div><div class="note">2 appearances</div></div></div>
+<div class="song" data-song="seize the day"><div class="songNum">6</div><div><div class="songTitle">Seize the Day</div><div class="note">2 appearances</div></div></div>
+<div class="song" data-song="hail to the king"><div class="songNum">7</div><div><div class="songTitle">Hail to the King</div><div class="note">2 appearances</div></div></div>
+<div class="song" data-song="nobody"><div class="songNum">8</div><div><div class="songTitle">Nobody</div><div class="note">2 appearances</div></div></div>
+<div class="song" data-song="the stage"><div class="songNum">9</div><div><div class="songTitle">The Stage</div><div class="note">2 appearances</div></div></div>
+<div class="song" data-song="bat country"><div class="songNum">10</div><div><div class="songTitle">Bat Country</div><div class="note">2 appearances</div></div></div>
+<div class="song" data-song="unholy confessions"><div class="songNum">11</div><div><div class="songTitle">Unholy Confessions</div><div class="note">Drum-solo outro · 2 appearances</div></div></div>
+<div class="song" data-song="cosmic"><div class="songNum">12</div><div><div class="songTitle">Cosmic</div><div class="note">Closer · 2-show streak</div></div></div>
+</div>
+</section>
+
+<section class="shell section" id="songs">
+<div class="sectionHead"><div><p class="eyebrow">Song database</p><h2>Current rotation</h2></div></div>
+<div class="songTable">
+<div class="songTableHead"><span>Song</span><span>Shows</span><span>Rate</span><span>Streak</span><span>Role</span></div>
+<div class="songRow"><strong>Nightmare</strong><span>2</span><span>100%</span><span>2</span><span>Opener</span></div>
+<div class="songRow"><strong>Magic</strong><span>2</span><span>100%</span><span>2</span><span>Live debut</span></div>
+<div class="songRow"><strong>Afterlife</strong><span>2</span><span>100%</span><span>2</span><span>Set</span></div>
+<div class="songRow"><strong>Shepherd of Fire</strong><span>2</span><span>100%</span><span>2</span><span>Set</span></div>
+<div class="songRow"><strong>Buried Alive</strong><span>2</span><span>100%</span><span>2</span><span>Set</span></div>
+<div class="songRow"><strong>Seize the Day</strong><span>2</span><span>100%</span><span>2</span><span>Set</span></div>
+<div class="songRow"><strong>Hail to the King</strong><span>2</span><span>100%</span><span>2</span><span>Set</span></div>
+<div class="songRow"><strong>Nobody</strong><span>2</span><span>100%</span><span>2</span><span>Set</span></div>
+<div class="songRow"><strong>The Stage</strong><span>2</span><span>100%</span><span>2</span><span>Set</span></div>
+<div class="songRow"><strong>Bat Country</strong><span>2</span><span>100%</span><span>2</span><span>Set</span></div>
+<div class="songRow"><strong>Unholy Confessions</strong><span>2</span><span>100%</span><span>2</span><span>Set</span></div>
+<div class="songRow"><strong>Cosmic</strong><span>2</span><span>100%</span><span>2</span><span>Closer</span></div>
+</div>
+</section>
+
+<section class="shell section" id="heatmap">
+<div class="sectionHead"><div><p class="eyebrow">Heat map</p><h2>Song usage by show</h2></div></div>
+<div class="panel heatWrap"><div class="heatmap">
+<div></div><div class="heatHead">Show #1</div><div class="heatHead">Show #2</div>
+<div class="heatRow"><span>Nightmare</span><div class="heatCell played">✓</div><div class="heatCell played">✓</div></div>
+<div class="heatRow"><span>Magic</span><div class="heatCell played">✓</div><div class="heatCell played">✓</div></div>
+<div class="heatRow"><span>Afterlife</span><div class="heatCell played">✓</div><div class="heatCell played">✓</div></div>
+<div class="heatRow"><span>Shepherd of Fire</span><div class="heatCell played">✓</div><div class="heatCell played">✓</div></div>
+<div class="heatRow"><span>Buried Alive</span><div class="heatCell played">✓</div><div class="heatCell played">✓</div></div>
+<div class="heatRow"><span>Seize the Day</span><div class="heatCell played">✓</div><div class="heatCell played">✓</div></div>
+<div class="heatRow"><span>Hail to the King</span><div class="heatCell played">✓</div><div class="heatCell played">✓</div></div>
+<div class="heatRow"><span>Nobody</span><div class="heatCell played">✓</div><div class="heatCell played">✓</div></div>
+<div class="heatRow"><span>The Stage</span><div class="heatCell played">✓</div><div class="heatCell played">✓</div></div>
+<div class="heatRow"><span>Bat Country</span><div class="heatCell played">✓</div><div class="heatCell played">✓</div></div>
+<div class="heatRow"><span>Unholy Confessions</span><div class="heatCell played">✓</div><div class="heatCell played">✓</div></div>
+<div class="heatRow"><span>Cosmic</span><div class="heatCell played">✓</div><div class="heatCell played">✓</div></div>
+</div></div>
+</section>
+
+<section class="shell section" id="history">
+<div class="sectionHead"><div><p class="eyebrow">Tour history</p><h2>The story so far</h2></div></div>
+<div class="panel timeline">
+<div class="event"><div class="eventDate">JUL 25</div><div class="eventBody"><strong>The North American run begins in Ridgedale.</strong><span class="muted">“Magic” receives its live debut. “Nightmare” opens and “Cosmic” closes.</span></div></div>
+<div class="event"><div class="eventDate">JUL 27</div><div class="eventBody"><strong>Opening-night set repeated in Shakopee.</strong><span class="muted">No additions, drops, returns, or order changes. Similarity: 100%.</span></div></div>
+</div>
+</section>
+</main>
+
+<footer><div class="shell">Unofficial fan project. Avenged Sevenfold is not affiliated with this site.</div></footer>
+
+<script>
+const search=document.getElementById('songSearch');
+const songs=[...document.querySelectorAll('.song')];
+search.addEventListener('input',()=>{const q=search.value.trim().toLowerCase();songs.forEach(song=>song.classList.toggle('hidden',!song.dataset.song.includes(q)))});
+</script>
+</body>
+</html>
