@@ -1,0 +1,18 @@
+{
+  "generated_at": null,
+  "artist": {
+    "name": "Avenged Sevenfold",
+    "mbid": "24e1b53c-3085-4581-8472-0b0088d2508c"
+  },
+  "tour": {
+    "name": "North American Tour 2026",
+    "start_date": "2026-07-25",
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "scheduled_shows": 16
+  },
+  "shows": [],
+  "song_stats": []
+}
