@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T14:21:16.441814+00:00",
+  "generated_at": "2026-08-09T14:56:20.908356+00:00",
   "artist": {
     "name": "Avenged Sevenfold",
     "mbid": "24e1b53c-3085-4581-8472-0b0088d2508c"
@@ -712,137 +712,250 @@
       "dropped": [],
       "returned": [],
       "similarity": 100
+    },
+    {
+      "setlist_id": "4b4c779a",
+      "version_id": "g43034323",
+      "date": "2026-08-08",
+      "display_date": "August 8, 2026",
+      "venue": "Centre Bell",
+      "city": "Montreal",
+      "state": "Quebec",
+      "country": "Canada",
+      "country_code": "CA",
+      "url": "https://www.setlist.fm/setlist/avenged-sevenfold/2026/centre-bell-montreal-qc-canada-4b4c779a.html",
+      "tour_name": "North American Tour 2026",
+      "songs": [
+        {
+          "name": "Nightmare",
+          "info": "",
+          "set_name": "",
+          "encore": null,
+          "cover_artist": ""
+        },
+        {
+          "name": "Magic",
+          "info": "",
+          "set_name": "",
+          "encore": null,
+          "cover_artist": ""
+        },
+        {
+          "name": "Afterlife",
+          "info": "",
+          "set_name": "",
+          "encore": null,
+          "cover_artist": ""
+        },
+        {
+          "name": "Shepherd of Fire",
+          "info": "",
+          "set_name": "",
+          "encore": null,
+          "cover_artist": ""
+        },
+        {
+          "name": "Buried Alive",
+          "info": "",
+          "set_name": "",
+          "encore": null,
+          "cover_artist": ""
+        },
+        {
+          "name": "Seize the Day",
+          "info": "",
+          "set_name": "",
+          "encore": null,
+          "cover_artist": ""
+        },
+        {
+          "name": "Hail to the King",
+          "info": "",
+          "set_name": "",
+          "encore": null,
+          "cover_artist": ""
+        },
+        {
+          "name": "Nobody",
+          "info": "",
+          "set_name": "",
+          "encore": null,
+          "cover_artist": ""
+        },
+        {
+          "name": "M.I.A.",
+          "info": "",
+          "set_name": "",
+          "encore": null,
+          "cover_artist": ""
+        },
+        {
+          "name": "Bat Country",
+          "info": "",
+          "set_name": "",
+          "encore": null,
+          "cover_artist": ""
+        },
+        {
+          "name": "Unholy Confessions",
+          "info": "with drum solo outro",
+          "set_name": "",
+          "encore": null,
+          "cover_artist": ""
+        },
+        {
+          "name": "Cosmic",
+          "info": "",
+          "set_name": "",
+          "encore": null,
+          "cover_artist": ""
+        }
+      ],
+      "tape_tracks": [
+        "Nightcall"
+      ],
+      "last_updated": "2026-08-09T07:43:08.045+0000",
+      "number": 7,
+      "opener": "Nightmare",
+      "closer": "Cosmic",
+      "set_length": 12,
+      "tour_debuts": [],
+      "live_debuts": [],
+      "added": [],
+      "dropped": [],
+      "returned": [],
+      "similarity": 100
     }
   ],
   "song_stats": [
     {
       "name": "Afterlife",
-      "appearances": 6,
+      "appearances": 7,
       "rate": 100,
-      "streak": 6,
+      "streak": 7,
       "first_show": 1,
-      "last_show": 6,
+      "last_show": 7,
       "average_position": 3.0,
       "opener_count": 0,
       "closer_count": 0
     },
     {
       "name": "Bat Country",
-      "appearances": 6,
+      "appearances": 7,
       "rate": 100,
-      "streak": 6,
+      "streak": 7,
       "first_show": 1,
-      "last_show": 6,
+      "last_show": 7,
       "average_position": 10.0,
       "opener_count": 0,
       "closer_count": 0
     },
     {
       "name": "Buried Alive",
-      "appearances": 6,
+      "appearances": 7,
       "rate": 100,
-      "streak": 6,
+      "streak": 7,
       "first_show": 1,
-      "last_show": 6,
+      "last_show": 7,
       "average_position": 5.0,
       "opener_count": 0,
       "closer_count": 0
     },
     {
       "name": "Cosmic",
-      "appearances": 6,
+      "appearances": 7,
       "rate": 100,
-      "streak": 6,
+      "streak": 7,
       "first_show": 1,
-      "last_show": 6,
+      "last_show": 7,
       "average_position": 12.0,
       "opener_count": 0,
-      "closer_count": 6
+      "closer_count": 7
     },
     {
       "name": "Hail to the King",
-      "appearances": 6,
+      "appearances": 7,
       "rate": 100,
-      "streak": 6,
+      "streak": 7,
       "first_show": 1,
-      "last_show": 6,
+      "last_show": 7,
       "average_position": 7.0,
       "opener_count": 0,
       "closer_count": 0
     },
     {
       "name": "Magic",
-      "appearances": 6,
+      "appearances": 7,
       "rate": 100,
-      "streak": 6,
+      "streak": 7,
       "first_show": 1,
-      "last_show": 6,
+      "last_show": 7,
       "average_position": 2.0,
       "opener_count": 0,
       "closer_count": 0
     },
     {
       "name": "Nightmare",
-      "appearances": 6,
+      "appearances": 7,
       "rate": 100,
-      "streak": 6,
+      "streak": 7,
       "first_show": 1,
-      "last_show": 6,
+      "last_show": 7,
       "average_position": 1.0,
-      "opener_count": 6,
+      "opener_count": 7,
       "closer_count": 0
     },
     {
       "name": "Nobody",
-      "appearances": 6,
+      "appearances": 7,
       "rate": 100,
-      "streak": 6,
+      "streak": 7,
       "first_show": 1,
-      "last_show": 6,
+      "last_show": 7,
       "average_position": 8.0,
       "opener_count": 0,
       "closer_count": 0
     },
     {
       "name": "Seize the Day",
-      "appearances": 6,
+      "appearances": 7,
       "rate": 100,
-      "streak": 6,
+      "streak": 7,
       "first_show": 1,
-      "last_show": 6,
+      "last_show": 7,
       "average_position": 6.0,
       "opener_count": 0,
       "closer_count": 0
     },
     {
       "name": "Shepherd of Fire",
-      "appearances": 6,
+      "appearances": 7,
       "rate": 100,
-      "streak": 6,
+      "streak": 7,
       "first_show": 1,
-      "last_show": 6,
+      "last_show": 7,
       "average_position": 4.0,
       "opener_count": 0,
       "closer_count": 0
     },
     {
       "name": "Unholy Confessions",
-      "appearances": 6,
+      "appearances": 7,
       "rate": 100,
-      "streak": 6,
+      "streak": 7,
       "first_show": 1,
-      "last_show": 6,
+      "last_show": 7,
       "average_position": 11.0,
       "opener_count": 0,
       "closer_count": 0
     },
     {
       "name": "M.I.A.",
-      "appearances": 4,
-      "rate": 67,
-      "streak": 4,
+      "appearances": 5,
+      "rate": 71,
+      "streak": 5,
       "first_show": 3,
-      "last_show": 6,
+      "last_show": 7,
       "average_position": 9.0,
       "opener_count": 0,
       "closer_count": 0
@@ -850,7 +963,7 @@
     {
       "name": "The Stage",
       "appearances": 2,
-      "rate": 33,
+      "rate": 29,
       "streak": 0,
       "first_show": 1,
       "last_show": 2,
@@ -861,8 +974,8 @@
   ],
   "diagnostics": {
     "pages_read": 2,
-    "raw_candidates": 12,
-    "selected_shows": 6,
-    "discarded_candidates": 6
+    "raw_candidates": 14,
+    "selected_shows": 7,
+    "discarded_candidates": 7
   }
 }
