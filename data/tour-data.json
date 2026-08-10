@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T14:56:20.908356+00:00",
+  "generated_at": "2026-08-10T16:10:39.392362+00:00",
   "artist": {
     "name": "Avenged Sevenfold",
     "mbid": "24e1b53c-3085-4581-8472-0b0088d2508c"
@@ -715,7 +715,7 @@
     },
     {
       "setlist_id": "4b4c779a",
-      "version_id": "g43034323",
+      "version_id": "g1b008974",
       "date": "2026-08-08",
       "display_date": "August 8, 2026",
       "venue": "Centre Bell",
@@ -798,7 +798,7 @@
         },
         {
           "name": "Unholy Confessions",
-          "info": "with drum solo outro",
+          "info": "with a fan called Zakk and drum solo outro",
           "set_name": "",
           "encore": null,
           "cover_artist": ""
@@ -814,7 +814,7 @@
       "tape_tracks": [
         "Nightcall"
       ],
-      "last_updated": "2026-08-09T07:43:08.045+0000",
+      "last_updated": "2026-08-10T13:10:07.864+0000",
       "number": 7,
       "opener": "Nightmare",
       "closer": "Cosmic",
