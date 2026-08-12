@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T16:12:35.726277+00:00",
+  "generated_at": "2026-08-12T16:11:37.659244+00:00",
   "artist": {
     "name": "Avenged Sevenfold",
     "mbid": "24e1b53c-3085-4581-8472-0b0088d2508c"
@@ -828,7 +828,7 @@
     },
     {
       "setlist_id": "370418f",
-      "version_id": "g7300e629",
+      "version_id": "g43003fc3",
       "date": "2026-08-10",
       "display_date": "August 10, 2026",
       "venue": "UBS Arena",
@@ -925,9 +925,10 @@
         }
       ],
       "tape_tracks": [
-        "Nightcall"
+        "Nightcall",
+        "You Want It Darker"
       ],
-      "last_updated": "2026-08-11T15:34:54.255+0000",
+      "last_updated": "2026-08-12T06:02:25.307+0000",
       "number": 8,
       "opener": "Nightmare",
       "closer": "Cosmic",
