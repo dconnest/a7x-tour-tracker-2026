@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T13:54:27.454501+00:00",
+  "generated_at": "2026-08-16T13:55:20.928370+00:00",
   "artist": {
     "name": "Avenged Sevenfold",
     "mbid": "24e1b53c-3085-4581-8472-0b0088d2508c"
@@ -715,7 +715,7 @@
     },
     {
       "setlist_id": "4b4c779a",
-      "version_id": "g3b0084fc",
+      "version_id": "g33004cb1",
       "date": "2026-08-08",
       "display_date": "August 8, 2026",
       "venue": "Centre Bell",
@@ -812,9 +812,10 @@
         }
       ],
       "tape_tracks": [
-        "Nightcall"
+        "Nightcall",
+        "My Way - Frank Sinatra"
       ],
-      "last_updated": "2026-08-10T17:10:49.729+0000",
+      "last_updated": "2026-08-15T14:08:22.918+0000",
       "number": 7,
       "opener": "Nightmare",
       "closer": "Cosmic",
@@ -1055,7 +1056,7 @@
     },
     {
       "setlist_id": "4b4c779e",
-      "version_id": "g5b005b90",
+      "version_id": "g6b004206",
       "date": "2026-08-14",
       "display_date": "August 14, 2026",
       "venue": "Freedom Mortgage Pavilion",
@@ -1151,8 +1152,10 @@
           "cover_artist": ""
         }
       ],
-      "tape_tracks": [],
-      "last_updated": "2026-08-15T03:57:22.576+0000",
+      "tape_tracks": [
+        "Nightcall"
+      ],
+      "last_updated": "2026-08-15T22:38:54.111+0000",
       "number": 10,
       "opener": "Nightmare",
       "closer": "Cosmic",
@@ -1311,9 +1314,9 @@
     }
   ],
   "diagnostics": {
-    "pages_read": 2,
-    "raw_candidates": 19,
+    "pages_read": 3,
+    "raw_candidates": 20,
     "selected_shows": 10,
-    "discarded_candidates": 9
+    "discarded_candidates": 10
   }
 }
