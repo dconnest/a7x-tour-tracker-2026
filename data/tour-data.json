@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T14:18:39.235156+00:00",
+  "generated_at": "2026-08-19T14:21:09.034425+00:00",
   "artist": {
     "name": "Avenged Sevenfold",
     "mbid": "24e1b53c-3085-4581-8472-0b0088d2508c"
@@ -1279,157 +1279,352 @@
       "dropped": [],
       "returned": [],
       "similarity": 100
+    },
+    {
+      "setlist_id": "4b4c77ce",
+      "version_id": "g6301d687",
+      "date": "2026-08-18",
+      "display_date": "August 18, 2026",
+      "venue": "MidFlorida Credit Union Amphitheatre",
+      "city": "Tampa",
+      "state": "Florida",
+      "country": "United States",
+      "country_code": "US",
+      "url": "https://www.setlist.fm/setlist/avenged-sevenfold/2026/midflorida-credit-union-amphitheatre-tampa-fl-4b4c77ce.html",
+      "tour_name": "North American Tour 2026",
+      "songs": [
+        {
+          "name": "LIGHTS",
+          "info": "",
+          "set_name": "STATICA",
+          "encore": null,
+          "cover_artist": ""
+        },
+        {
+          "name": "STATICA",
+          "info": "",
+          "set_name": "STATICA",
+          "encore": null,
+          "cover_artist": ""
+        },
+        {
+          "name": "REJOICE",
+          "info": "",
+          "set_name": "STATICA",
+          "encore": null,
+          "cover_artist": ""
+        },
+        {
+          "name": "ASHES",
+          "info": "",
+          "set_name": "STATICA",
+          "encore": null,
+          "cover_artist": ""
+        },
+        {
+          "name": "Nightmare",
+          "info": "",
+          "set_name": "Avenged Sevenfold",
+          "encore": null,
+          "cover_artist": ""
+        },
+        {
+          "name": "Magic",
+          "info": "",
+          "set_name": "Avenged Sevenfold",
+          "encore": null,
+          "cover_artist": ""
+        },
+        {
+          "name": "Afterlife",
+          "info": "",
+          "set_name": "Avenged Sevenfold",
+          "encore": null,
+          "cover_artist": ""
+        },
+        {
+          "name": "Shepherd of Fire",
+          "info": "",
+          "set_name": "Avenged Sevenfold",
+          "encore": null,
+          "cover_artist": ""
+        },
+        {
+          "name": "Buried Alive",
+          "info": "",
+          "set_name": "Avenged Sevenfold",
+          "encore": null,
+          "cover_artist": ""
+        },
+        {
+          "name": "Seize the Day",
+          "info": "",
+          "set_name": "Avenged Sevenfold",
+          "encore": null,
+          "cover_artist": ""
+        },
+        {
+          "name": "Hail to the King",
+          "info": "",
+          "set_name": "Avenged Sevenfold",
+          "encore": null,
+          "cover_artist": ""
+        },
+        {
+          "name": "Nobody",
+          "info": "",
+          "set_name": "Avenged Sevenfold",
+          "encore": null,
+          "cover_artist": ""
+        },
+        {
+          "name": "M.I.A.",
+          "info": "",
+          "set_name": "Avenged Sevenfold",
+          "encore": null,
+          "cover_artist": ""
+        },
+        {
+          "name": "Bat Country",
+          "info": "",
+          "set_name": "Avenged Sevenfold",
+          "encore": null,
+          "cover_artist": ""
+        },
+        {
+          "name": "Unholy Confessions",
+          "info": "Drum solo outro",
+          "set_name": "Avenged Sevenfold",
+          "encore": null,
+          "cover_artist": ""
+        },
+        {
+          "name": "Cosmic",
+          "info": "",
+          "set_name": "Avenged Sevenfold",
+          "encore": null,
+          "cover_artist": ""
+        }
+      ],
+      "tape_tracks": [
+        "Nightcall"
+      ],
+      "last_updated": "2026-08-19T03:00:20.073+0000",
+      "number": 12,
+      "opener": "LIGHTS",
+      "closer": "Cosmic",
+      "set_length": 16,
+      "tour_debuts": [
+        "LIGHTS",
+        "STATICA",
+        "REJOICE",
+        "ASHES"
+      ],
+      "live_debuts": [],
+      "added": [
+        "LIGHTS",
+        "STATICA",
+        "REJOICE",
+        "ASHES"
+      ],
+      "dropped": [],
+      "returned": [],
+      "similarity": 75
     }
   ],
   "song_stats": [
     {
       "name": "Afterlife",
-      "appearances": 11,
+      "appearances": 12,
       "rate": 100,
-      "streak": 11,
+      "streak": 12,
       "first_show": 1,
-      "last_show": 11,
-      "average_position": 3.0,
+      "last_show": 12,
+      "average_position": 3.3,
       "opener_count": 0,
       "closer_count": 0
     },
     {
       "name": "Bat Country",
-      "appearances": 11,
+      "appearances": 12,
       "rate": 100,
-      "streak": 11,
+      "streak": 12,
       "first_show": 1,
-      "last_show": 11,
-      "average_position": 10.0,
+      "last_show": 12,
+      "average_position": 10.3,
       "opener_count": 0,
       "closer_count": 0
     },
     {
       "name": "Buried Alive",
-      "appearances": 11,
+      "appearances": 12,
       "rate": 100,
-      "streak": 11,
+      "streak": 12,
       "first_show": 1,
-      "last_show": 11,
-      "average_position": 5.0,
+      "last_show": 12,
+      "average_position": 5.3,
       "opener_count": 0,
       "closer_count": 0
     },
     {
       "name": "Cosmic",
-      "appearances": 11,
+      "appearances": 12,
       "rate": 100,
-      "streak": 11,
+      "streak": 12,
       "first_show": 1,
-      "last_show": 11,
-      "average_position": 12.0,
+      "last_show": 12,
+      "average_position": 12.3,
       "opener_count": 0,
-      "closer_count": 11
+      "closer_count": 12
     },
     {
       "name": "Hail to the King",
-      "appearances": 11,
+      "appearances": 12,
       "rate": 100,
-      "streak": 11,
+      "streak": 12,
       "first_show": 1,
-      "last_show": 11,
-      "average_position": 7.0,
+      "last_show": 12,
+      "average_position": 7.3,
       "opener_count": 0,
       "closer_count": 0
     },
     {
       "name": "Magic",
-      "appearances": 11,
+      "appearances": 12,
       "rate": 100,
-      "streak": 11,
+      "streak": 12,
       "first_show": 1,
-      "last_show": 11,
-      "average_position": 2.0,
+      "last_show": 12,
+      "average_position": 2.3,
       "opener_count": 0,
       "closer_count": 0
     },
     {
       "name": "Nightmare",
-      "appearances": 11,
+      "appearances": 12,
       "rate": 100,
-      "streak": 11,
+      "streak": 12,
       "first_show": 1,
-      "last_show": 11,
-      "average_position": 1.0,
+      "last_show": 12,
+      "average_position": 1.3,
       "opener_count": 11,
       "closer_count": 0
     },
     {
       "name": "Nobody",
-      "appearances": 11,
+      "appearances": 12,
       "rate": 100,
-      "streak": 11,
+      "streak": 12,
       "first_show": 1,
-      "last_show": 11,
-      "average_position": 8.0,
+      "last_show": 12,
+      "average_position": 8.3,
       "opener_count": 0,
       "closer_count": 0
     },
     {
       "name": "Seize the Day",
-      "appearances": 11,
+      "appearances": 12,
       "rate": 100,
-      "streak": 11,
+      "streak": 12,
       "first_show": 1,
-      "last_show": 11,
-      "average_position": 6.0,
+      "last_show": 12,
+      "average_position": 6.3,
       "opener_count": 0,
       "closer_count": 0
     },
     {
       "name": "Shepherd of Fire",
-      "appearances": 11,
+      "appearances": 12,
       "rate": 100,
-      "streak": 11,
+      "streak": 12,
       "first_show": 1,
-      "last_show": 11,
-      "average_position": 4.0,
+      "last_show": 12,
+      "average_position": 4.3,
       "opener_count": 0,
       "closer_count": 0
     },
     {
       "name": "Unholy Confessions",
-      "appearances": 11,
+      "appearances": 12,
       "rate": 100,
-      "streak": 11,
+      "streak": 12,
       "first_show": 1,
-      "last_show": 11,
-      "average_position": 11.0,
+      "last_show": 12,
+      "average_position": 11.3,
       "opener_count": 0,
       "closer_count": 0
     },
     {
       "name": "M.I.A.",
-      "appearances": 9,
-      "rate": 82,
-      "streak": 9,
+      "appearances": 10,
+      "rate": 83,
+      "streak": 10,
       "first_show": 3,
-      "last_show": 11,
-      "average_position": 9.0,
+      "last_show": 12,
+      "average_position": 9.4,
       "opener_count": 0,
       "closer_count": 0
     },
     {
       "name": "The Stage",
       "appearances": 2,
-      "rate": 18,
+      "rate": 17,
       "streak": 0,
       "first_show": 1,
       "last_show": 2,
       "average_position": 9.0,
       "opener_count": 0,
       "closer_count": 0
+    },
+    {
+      "name": "ASHES",
+      "appearances": 1,
+      "rate": 8,
+      "streak": 1,
+      "first_show": 12,
+      "last_show": 12,
+      "average_position": 4.0,
+      "opener_count": 0,
+      "closer_count": 0
+    },
+    {
+      "name": "LIGHTS",
+      "appearances": 1,
+      "rate": 8,
+      "streak": 1,
+      "first_show": 12,
+      "last_show": 12,
+      "average_position": 1.0,
+      "opener_count": 1,
+      "closer_count": 0
+    },
+    {
+      "name": "REJOICE",
+      "appearances": 1,
+      "rate": 8,
+      "streak": 1,
+      "first_show": 12,
+      "last_show": 12,
+      "average_position": 3.0,
+      "opener_count": 0,
+      "closer_count": 0
+    },
+    {
+      "name": "STATICA",
+      "appearances": 1,
+      "rate": 8,
+      "streak": 1,
+      "first_show": 12,
+      "last_show": 12,
+      "average_position": 2.0,
+      "opener_count": 0,
+      "closer_count": 0
     }
   ],
   "diagnostics": {
     "pages_read": 3,
-    "raw_candidates": 21,
-    "selected_shows": 11,
-    "discarded_candidates": 10
+    "raw_candidates": 23,
+    "selected_shows": 12,
+    "discarded_candidates": 11
   }
 }
