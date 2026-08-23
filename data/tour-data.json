@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T13:55:53.516303+00:00",
+  "generated_at": "2026-08-23T13:56:41.380040+00:00",
   "artist": {
     "name": "Avenged Sevenfold",
     "mbid": "24e1b53c-3085-4581-8472-0b0088d2508c"
@@ -715,7 +715,7 @@
     },
     {
       "setlist_id": "4b4c779a",
-      "version_id": "g33004cb1",
+      "version_id": "g1b0151ec",
       "date": "2026-08-08",
       "display_date": "August 8, 2026",
       "venue": "Centre Bell",
@@ -813,9 +813,9 @@
       ],
       "tape_tracks": [
         "Nightcall",
-        "My Way - Frank Sinatra"
+        "My Way"
       ],
-      "last_updated": "2026-08-15T14:08:22.918+0000",
+      "last_updated": "2026-08-22T21:12:38.447+0000",
       "number": 7,
       "opener": "Nightmare",
       "closer": "Cosmic",
@@ -1654,8 +1654,8 @@
   ],
   "diagnostics": {
     "pages_read": 3,
-    "raw_candidates": 25,
+    "raw_candidates": 26,
     "selected_shows": 13,
-    "discarded_candidates": 12
+    "discarded_candidates": 13
   }
 }
