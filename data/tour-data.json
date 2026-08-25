@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T15:11:48.718981+00:00",
+  "generated_at": "2026-08-25T15:28:19.886727+00:00",
   "artist": {
     "name": "Avenged Sevenfold",
     "mbid": "24e1b53c-3085-4581-8472-0b0088d2508c"
@@ -144,7 +144,7 @@
     },
     {
       "setlist_id": "4b4c77da",
-      "version_id": "g3302047d",
+      "version_id": "g130e8d29",
       "date": "2026-07-27",
       "display_date": "July 27, 2026",
       "venue": "Mystic Lake Amphitheater",
@@ -243,7 +243,7 @@
       "tape_tracks": [
         "Nightcall"
       ],
-      "last_updated": "2026-07-31T14:10:33.252+0000",
+      "last_updated": "2026-08-24T17:14:05.024+0000",
       "number": 2,
       "opener": "Nightmare",
       "closer": "Cosmic",
@@ -1508,7 +1508,7 @@
     },
     {
       "setlist_id": "534c7791",
-      "version_id": "g530e97c9",
+      "version_id": "g4b0e8b0a",
       "date": "2026-08-23",
       "display_date": "August 23, 2026",
       "venue": "Ball Arena",
@@ -1605,7 +1605,7 @@
         }
       ],
       "tape_tracks": [],
-      "last_updated": "2026-08-24T12:37:22.018+0000",
+      "last_updated": "2026-08-24T21:43:41.539+0000",
       "number": 14,
       "opener": "Nightmare",
       "closer": "Cosmic",
@@ -1765,8 +1765,8 @@
   ],
   "diagnostics": {
     "pages_read": 3,
-    "raw_candidates": 27,
+    "raw_candidates": 28,
     "selected_shows": 14,
-    "discarded_candidates": 13
+    "discarded_candidates": 14
   }
 }
