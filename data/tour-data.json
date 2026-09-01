@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T19:19:50.460095+00:00",
+  "generated_at": "2026-09-01T17:04:05.709731+00:00",
   "artist": {
     "name": "Avenged Sevenfold",
     "mbid": "24e1b53c-3085-4581-8472-0b0088d2508c"
@@ -1619,7 +1619,7 @@
     },
     {
       "setlist_id": "5b4c7790",
-      "version_id": "g530ee369",
+      "version_id": "g7b0f9a44",
       "date": "2026-08-25",
       "display_date": "August 25, 2026",
       "venue": "Utah First Credit Union Amphitheatre",
@@ -1715,8 +1715,10 @@
           "cover_artist": ""
         }
       ],
-      "tape_tracks": [],
-      "last_updated": "2026-08-26T06:04:10.256+0000",
+      "tape_tracks": [
+        "Nightcall"
+      ],
+      "last_updated": "2026-08-31T23:25:11.172+0000",
       "number": 15,
       "opener": "Nightmare",
       "closer": "Cosmic",
