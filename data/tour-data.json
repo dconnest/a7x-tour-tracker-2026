@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T15:54:07.321606+00:00",
+  "generated_at": "2026-09-07T18:01:12.921278+00:00",
   "artist": {
     "name": "Avenged Sevenfold",
     "mbid": "24e1b53c-3085-4581-8472-0b0088d2508c"
@@ -1732,7 +1732,7 @@
     },
     {
       "setlist_id": "4371738b",
-      "version_id": "g730e76b5",
+      "version_id": "g530f57a9",
       "date": "2026-08-27",
       "display_date": "August 27, 2026",
       "venue": "Talking Stick Resort Amphitheatre",
@@ -1801,7 +1801,7 @@
         },
         {
           "name": "M.I.A.",
-          "info": "",
+          "info": "Dedicated to the military veterans",
           "set_name": "",
           "encore": null,
           "cover_artist": ""
@@ -1815,7 +1815,7 @@
         },
         {
           "name": "Unholy Confessions",
-          "info": "drum solo",
+          "info": "drum solo outro",
           "set_name": "",
           "encore": null,
           "cover_artist": ""
@@ -1824,12 +1824,12 @@
           "name": "Cosmic",
           "info": "",
           "set_name": "",
-          "encore": null,
+          "encore": 1,
           "cover_artist": ""
         }
       ],
       "tape_tracks": [],
-      "last_updated": "2026-08-29T13:32:02.070+0000",
+      "last_updated": "2026-09-06T17:22:24.356+0000",
       "number": 16,
       "opener": "Nightmare",
       "closer": "Cosmic",
